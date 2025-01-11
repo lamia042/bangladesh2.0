@@ -132,6 +132,7 @@ table{
     font-weight: 600;
 }
 .t{
+    text-align: left;
     padding: 25px;
     background-color: #35c282;
 }
