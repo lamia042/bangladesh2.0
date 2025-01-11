@@ -188,6 +188,9 @@
     border-radius: 16px;
     border: none;
 }
+.donate-btn:hover{
+    background-color: #006A50;
+}
 .input{
     margin-top: 30px;
     text-align: center;
