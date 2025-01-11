@@ -111,6 +111,9 @@
     gap:0px
 }
 /*opinion style*/
+table{
+    width: 100%;
+}
 .opinion>h2{
     font-size: 40px;
     font-weight: bold;
