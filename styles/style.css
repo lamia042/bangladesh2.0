@@ -1,0 +1,249 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+.margin{
+    background-color: #F5F5F5;
+    margin: 100px;
+}
+/*banner style*/
+.header-bg{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.banner-text{
+    padding: 0px;
+    text-align: left;
+    margin-top: 50px;
+}
+.banner-h4{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+
+}
+.banner-h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    ;
+}
+
+.banner-pic{
+    justify-content: right;
+    padding: 0px;
+}
+.banner-button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 18;
+    border-radius: 8px;
+    border: none;
+    padding: 24px;
+}
+/*about style*/
+.about-h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-p{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.vision-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.vision{
+    border-radius: 16px;
+    padding: 32px;
+    text-align: left;
+    margin-top: 10px;
+}
+.GE-bg{
+    background-color: rgba(198, 228, 214, 1);
+}
+.DT-bg{
+    background-color: #D2E5FF;
+}
+.MI-bg{
+    background-color: #F7EBCF;
+}
+.btn{
+    padding: 20px 11px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.ge-btn{
+    background-color: #09A15C;
+}
+.dt-btn{
+    background-color: #5490F5;
+}
+.mi-btn{
+    background-color: #FFC239;
+}
+/*quote style*/
+.quote{
+    margin-top: 80px;
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    height: px;
+    border-radius: 24px;
+    background-color: white;
+}
+.quote-txt{
+    padding: 15px;;
+}
+.ca{
+    color: #545353;
+    gap:0px
+}
+/*opinion style*/
+.opinion>h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.opinion>div{
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+.opinion>div>table{
+    border-collapse: collapse;
+    padding: 25px;
+}
+.th{
+    border: 1px solid rgb(205, 202, 202);
+    font-weight: 600;
+}
+.t{
+    padding: 25px;
+    background-color: #35c282;
+}
+.opinion>div>table>tbody>tr>td{
+    border: 1px solid rgb(232, 225, 225);
+    padding: 25px;
+    font-weight: 600;
+}
+/*recent news*/
+.sat{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 30px;
+}
+.sat>img{
+    border-radius: 24px;
+
+}
+.sat-text>h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sat-btn{
+    background-color: #006A50;
+}
+/*Donate style*/
+.donate>h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate>p{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.donate{
+    margin-top: 50px;
+    text-align: center;
+    padding: 150px;
+    border: none;
+}
+.donate>button{
+    
+    display: flex;
+}
+.donate-btn{
+    margin-right: 20px;
+    color: white;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: bold;background-color: #9dbcf4;
+    padding: 40px;
+    border-radius: 16px;
+    border: none;
+}
+.input{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 450px;
+    border: none;
+}
+/*subscribe style*/
+.subscribe{
+    text-align: center;
+    background-color: #bfead6;
+    padding: 85px 75px;
+    border-radius: 24px;
+    margin: 0px;
+}
+.sub>h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.sub>p{
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 13px;
+}
+.input>input{
+    width: 800px;
+    padding: 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+}
+.input{
+    display: flex;
+}
+.subscribe>p{
+    font-size: 13px;
+    margin-top: 0px;
+}
+/*footer*/
+.footer{
+    background-color: white;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 50px 160px;
+}
+.footer>hr{
+    border-color: #fcfbfb;
+}
+.icon{
+    text-align: flex;
+    justify-content: space-between;
+    
+    
+}
+.icon>img{
+    width: 20px;
+    height: 21px;
+}
